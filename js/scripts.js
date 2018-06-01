@@ -31,10 +31,10 @@ $("form#choice").click(function(event) {
       {
         $('#CNET-box').show();
       }
-      else  if (cssreact === 'No' && rubyrails === 'No' && cnet === 'No') 
+      else  if (cssreact === 'No' && rubyrails === 'No' && cnet === 'No')
       {
-        $('default').show();
+        $('#default').show();
       }
-
+        console.log("reached");
   });
 });
