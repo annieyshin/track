@@ -31,8 +31,9 @@ $("form#choice").click(function(event) {
       {
         $('#CNET-box').show();
       }
-      else {
-
+      else  if (cssreact === 'No' && rubyrails === 'No' && cnet === 'No') 
+      {
+        $('default').show();
       }
 
   });
