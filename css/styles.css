@@ -6,12 +6,23 @@ width: 100%;
 
 .titleformat {
 color: #d63fdb;
+
 }
 
 .jumbotron {
+color: #22b7b5;
+font-family: sans-serif;
 
 }
 body {
 
   background-color: #e5fce9;
+}
+
+img.logo {
+ height: 80px;
+ float: left;
+ margin: 15px;
+ padding: 5px;
+
 }
