@@ -5,18 +5,19 @@ width: 100%;
 
 
 .titleformat {
-color: #d63fdb;
+color: #22b7b5;
 
 }
 
 .jumbotron {
 color: #22b7b5;
 font-family: sans-serif;
+text-align: center;
 
 }
 body {
 
-  background-color: #e5fce9;
+  background-color: #f5f9e5;
 }
 
 img.logo {
@@ -26,3 +27,27 @@ img.logo {
  padding: 5px;
 
 }
+
+.location {
+
+  font-size: 18pt;
+}
+
+.intro {
+
+font-size: 18pt;
+color: gray;
+}
+
+.track-list {
+color: red;
+font-size: 18pt;
+
+}
+
+.note {
+  color: teal;
+  font-size: 15pt;
+}
+
+.note:
