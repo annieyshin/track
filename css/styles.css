@@ -53,4 +53,11 @@ font-size: 18pt;
 .panel-title {
 font-size: 20pt;
 font-weight: bold;
+background-color: #22b7b5;
+color: white;
+}
+
+.panel-heading {
+
+  background-color: #22b7b5;
 }
