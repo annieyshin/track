@@ -22,6 +22,7 @@ $("form#choice").click(function(event) {
     if (cssreact === 'Yes')
       {
         $('#CSS-box').show();
+        $('#default').hide();
       }
       else if (rubyrails === 'Yes')
       {
