@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.slim.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Track Selector</title>
+  </head>
+
+  <body>
+    <div class="container">
+    <div class="jumbotron">
+      <h1>Epicodus Track Selector</h1>
+    </div>
+      <h2><span class="titleformat">Which programming track is the best fit for you?</span></h2>
+      <h3>You've tried other dating websites, many based on mutual likes and interests, even mutually disliked things or interest! Character Dating offers something more, kind of like horoscope dating, but by creating a profile with a character archetype and matching you based on what characters other users select.
+      </h3>
+      <div id="under18">
+        <p><strong>Sorry!</strong> Please come back and visit us when you turn 18, thank you for visiting this site. Warm unicorn kisses and blood rainbows to you young-un!
+          <img src="img/unicorn.png">
+        <h3 class="corn">Disclaimer: It is illegal to join this dating site if you are under 18 years old.</h3>
+        </p>
+      </div>
+
+<!-- <form> -->
+      <div id="over18">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+                  <p class="panel-title">Let's find out more about you:</p>
+          </div>
+          <div class="panel-body">
+                <div class="row">
+                  <div class="col-md-2">Enter
+                    <form id="nameinput">
+                              <div class="form-group">
+                                <label for="name1">Username</label>
+                                <input id="name1" class="form-control" type="text">
+                              </div>
+                    </form>
+
+                  </div>
+                  <!-- SEXUAL ORIENTATION -->
+                  <form id="sexual">
+                    <div class="col-md-2">sexual-orientation
+                      <select id="sexualpick">
+                        <option value="straight">Heterosexual</option>
+                        <option value="gay">LGBT</option>
+                      </select>
+                      <!-- <div class="radio">
+                        <label>
+                          <input type="radio" name="Straight" value="Yes" checked>
+                          Straight
+                        </label>
+                      </div> -->
+                      <!-- <div class="radio">
+                        <label>
+                          <input type="radio" name="Gay" value="No">
+                          Queer/Homosexual<br>/Asexual
+                        </label>
+                      </div> -->
+                    </div>
+                  </form>
+
+                  <div class="col-md-2">Do you like the dark side?
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="dark" value="Yes" checked>
+                        Yes
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="dark" value="No">
+                        No
+                      </label>
+                    </div>
+                  </div>
+
+                  <div class="col-md-2">  political party
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="Left" value="Yes" checked>
+                        Left Leaning
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="Right" value="No">
+                        Right Leaning
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-md-2">address
+                    <form id="nameinput">
+                              <div class="form-group">
+                                <label for="name1">Street, City, State</label>
+                                <input id="name1" class="form-control" type="text">
+                              </div>
+                    </form>
+                  </div>
+                  <div class="col-md-2">email address
+                    <form id="nameinput">
+                              <div class="form-group">
+                                <label for="name1">Contact Email</label>
+                                <input id="name1" class="form-control" type="text">
+                              </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-2">Height
+                    <form id="nameinput">
+                              <div class="form-group">
+                                <label for="name1">in inches</label>
+                                <input id="name1" class="form-control" type="text">
+                              </div>
+                    </form>
+                  </div>
+                  <div class="col-md-2">Gender
+                    <br>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="gender" value="Male" checked>
+                        Masculine identifying
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="gender" value="Female">
+                        Feminine identifying
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-md-2">Do you slay the bad guys?
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="slayer" value="Yes" checked>
+                        Yes
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="slayer" value="No">
+                        No
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-md-2">Do you consider yourself morally upright?
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="morals" value="Yes" checked>
+                        Yes
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="morals" value="No">
+                        No
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-md-2">Do you like to drink blood?
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="blood" value="Yes" checked>
+                        Yes
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="blood" value="No">
+                        No
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-md-2">Do you consider yourself a hero or villain type?
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="hero" value="Yes" checked>
+                        Hero
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="hero" value="No">
+                        Villain
+                      </label>
+                    </div>
+                  </div>
+
+                </div>   <!-- ROW DIV ENDING -->
+
+
+                  <!-- AFTER USER DATA INPUT, FIND OUT WHICH FICTIONAL CHARACTER THE USER MOST RESEMBLES -->
+                  <!-- ADD IN CHARACTERS FROM MARVEL, HARRY POTTER, SAILOR MOON, and PRINCE AND PRINCESSES -->
+                <br>
+                <button type="submit" class="btn-success" id="submit">Result!</button>
+
+<!-- </form> -->
+                <div id="output"> Find out your character score here! </div>
+          </div>  <!-- Gridbox DIV ENDING -->
+        </div>  <!-- Panel body DIV ENDING -->
+      </div>  <!-- Panel Panel DIV ENDING -->
+
+
+
+      <div id="straightbox">
+      <div class="panel panel-success">
+        <div class="panel-heading">
+                <p class="panel-title2">What kind of character are you? </p>
+        </div>
+
+        <div class="panel-body">
+
+              <div class="row">
+                <div class="col-md-3">Score: 1-7
+                  <ul>
+                    <li>Hero Character:</li>
+                    <li>Villain Character:</li>
+                  </ul>
+                </div>
+                <div class="col-md-3">Score: 8-15
+                  <ul>
+                    <li>Hero Character:</li>
+                    <li>Villain Character:</li>
+                  </ul>
+                </div>
+                <div class="col-md-3">Score: 16-22
+                  <ul>
+                    <li>Hero Character:</li>
+                    <li>Villain Character:</li>
+                  </ul>
+                </div>
+                <div class="col-md-3">Score: 23-30
+                  <ul>
+                    <li>Hero Character:</li>
+                    <li>Villain Character:</li>
+                  </ul>
+                </div>
+              </div>  <!-- 2nd row class DIV ENDING -->
+        </div>  <!-- 2nd Panel body DIV ENDING -->
+      </div>  <!-- 2nd panel panel DIV ENDING -->
+    </div>  <!-- straight box DIV ENDING -->
+
+    <div id="gaybox">
+    <div class="panel panel-success">
+      <div class="panel-heading">
+              <p class="panel-title2">What kind of LGBTQ character are you? </p>
+      </div>
+
+      <div class="panel-body">
+
+            <div class="row">
+              <div class="col-md-3">Score: 1-7
+                <ul>
+                  <li>Hero Character:</li>
+                  <li>Villain Character:</li>
+                </ul>
+              </div>
+              <div class="col-md-3">Score: 8-15
+                <ul>
+                  <li>Hero Character:</li>
+                  <li>Villain Character:</li>
+                </ul>
+              </div>
+              <div class="col-md-3">Score: 16-22
+                <ul>
+                  <li>Hero Character:</li>
+                  <li>Villain Character:</li>
+                </ul>
+              </div>
+              <div class="col-md-3">Score: 23-30
+                <ul>
+                  <li>Hero Character:</li>
+                  <li>Villain Character:</li>
+                </ul>
+              </div>
+            </div>  <!-- 2nd row class DIV ENDING -->
+      </div>  <!-- 2nd Panel body DIV ENDING -->
+    </div>  <!-- 2nd panel panel DIV ENDING -->
+  </div>  <!-- gay box DIV ENDING -->
+
+    </div>  <!-- CONTAINER DIV ENDING -->
+
+
+
+
+  </body>
+</html>
