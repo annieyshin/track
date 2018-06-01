@@ -27,10 +27,12 @@ $("form#choice").click(function(event) {
       else if (rubyrails === 'Yes')
       {
         $('#Ruby-box').show();
+        $('#default').hide();
       }
       else  if (cnet === 'Yes')
       {
         $('#CNET-box').show();
+        $('#default').hide();
       }
       else  if (cssreact === 'No' && rubyrails === 'No' && cnet === 'No')
       {
