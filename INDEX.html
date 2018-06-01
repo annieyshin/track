@@ -41,7 +41,7 @@
         </p>
       </div>
 
-      <form>
+      <form id="choice">
         <div id="motivated">
           <div class="panel panel-default">
             <div class="panel-heading">
@@ -75,32 +75,32 @@
                     </div>
                   </div>
                 </div>
-
-                <!-- <div class="row">
-                  <div class="col-md-4">
-                    <div id="nameinput">
-                      <div class="form-group">
-                        <label for="name1">in inches</label>
-                        <input id="name1" class="form-control" type="text">
-                      </div>
-                    </div>
-                  </div> -->
-                  <div class="col-md-4">Are you interested in User Interface and design?
+                <div class="row">
+                  <div class="col-md-4">Are you more interested in UI or web design, than full stack application development?
                     <br>
-                    <div class="radio">
-                      <label>
-                        <input type="radio" name="UI" value="Yes" checked>
-                        Yes
-                      </label>
-                    </div>
-                    <div class="radio">
-                      <label>
-                        <input type="radio" name="UI" value="No">
-                        No
-                      </label>
-                    </div>
+                       <select id="csschoice">
+                         <option value="No">Default</option>
+                         <option value="Yes">Yes, more intersted in UI and Design</option>
+                         <option value="No">No, I am more interested in full stack</option>
+                       </select>
                   </div>
-                  <div class="col-md-4">Are you more interested in web page development? or in full stack broad range of application development?
+                  <div class="col-md-4">Are you interested in a language that is simplistic, yet elegant to use?
+                    <br>
+                       <select id="rubychoice">
+                         <option value="No">Default</option>
+                         <option value="Yes">Yes, less is more</option>
+                         <option value="No">No, I don't want a simple language</option>
+                       </select>
+                  </div>
+                  <div class="col-md-4">Which type of development are you more interested in studying?
+                    <br>
+                       <select id="cnetchoice">
+                         <option value="No">Default</option>
+                         <option value="Yes">Heterosexual</option>
+                         <option value="No">LGBT</option>
+                       </select>
+                  </div>
+                  <!-- <div class="col-md-4">Are you more interested in web page development? or in full stack broad range of application development?
                     <div class="radio">
                       <label>
                         <input type="radio" name="dev" value="Yes" checked>
@@ -113,7 +113,7 @@
                           Wide range of applications
                       </label>
                     </div>
-                  </div>
+                  </div> -->
                 </div>   <!-- ROW DIV ENDING -->
                 <br>
                 <button type="submit" class="btn-success" id="submit">Result!</button>
