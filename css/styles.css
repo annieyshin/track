@@ -1,22 +1,19 @@
 .container {
-
-width: 100%;
+  width: 100%;
 }
 
 
 .titleformat {
-color: #22b7b5;
-
+  color: #22b7b5;
 }
 
 .jumbotron {
-color: #22b7b5;
-font-family: sans-serif;
-text-align: center;
-
+  color: #22b7b5;
+  font-family: sans-serif;
+  text-align: center;
 }
-body {
 
+body {
   background-color: #f5f9e5;
 }
 
@@ -25,24 +22,20 @@ img.logo {
  float: left;
  margin: 15px;
  padding: 5px;
-
 }
 
 .location {
-
   font-size: 18pt;
 }
 
 .intro {
-
-font-size: 18pt;
-color: gray;
+  font-size: 18pt;
+  color: gray;
 }
 
 .track-list {
-color: red;
-font-size: 18pt;
-
+  color: red;
+  font-size: 18pt;
 }
 
 .note {
@@ -51,14 +44,13 @@ font-size: 18pt;
 }
 
 .panel-title {
-font-size: 20pt;
-font-weight: bold;
-background-color: #22b7b5;
-color: white;
+  font-size: 20pt;
+  font-weight: bold;
+  background-color: #22b7b5;
+  color: white;
 }
 
 .panel-heading {
-
   background-color: #22b7b5;
 }
 
@@ -71,5 +63,9 @@ color: white;
 }
 
 #CNET-box {
+  display: none;
+}
+
+#not-motivated {
   display: none;
 }
