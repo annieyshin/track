@@ -50,4 +50,7 @@ font-size: 18pt;
   font-size: 15pt;
 }
 
-.note:
+.panel-title {
+font-size: 20pt;
+font-weight: bold;
+}
