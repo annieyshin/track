@@ -35,7 +35,7 @@ img.logo {
 
 .track-list {
   color: red;
-  font-size: 18pt;
+  font-size: 16pt;
 }
 
 .note {
@@ -67,5 +67,9 @@ img.logo {
 }
 
 #not-motivated {
+  display: none;
+}
+
+#motivated {
   display: none;
 }
