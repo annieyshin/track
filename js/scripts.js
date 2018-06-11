@@ -11,7 +11,7 @@ $(document).ready(function() {
         $('#not-motivated').show();
     }
 
-$("form#choice").click(function(event) {
+$("form#choice").submit(function(event) {
   console.log("reached");
     event.preventDefault();
     console.log("reached");
@@ -23,16 +23,22 @@ $("form#choice").click(function(event) {
       {
         $('#CSS-box').show();
         $('#default').hide();
+        $('#Ruby-box').hide();
+        $('#CNET-box').hide();
       }
       else if (rubyrails === 'Yes')
       {
         $('#Ruby-box').show();
         $('#default').hide();
+        $('#CSS-box').hide();
+        $('#CNET-box').hide();
       }
       else  if (cnet === 'Yes')
       {
         $('#CNET-box').show();
         $('#default').hide();
+        $('#Ruby-box').hide();
+        $('#CSS-box').hide();
       }
       else  if (cssreact === 'No' && rubyrails === 'No' && cnet === 'No')
       {
