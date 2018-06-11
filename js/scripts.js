@@ -12,9 +12,7 @@ $(document).ready(function() {
     }
 
 $("form#choice").submit(function(event) {
-  console.log("reached");
     event.preventDefault();
-    console.log("reached");
   var cssreact = $("select#csschoice").val();
   var rubyrails = $("select#rubychoice").val();
   var cnet = $("select#cnetchoice").val();
@@ -43,7 +41,9 @@ $("form#choice").submit(function(event) {
       else  if (cssreact === 'No' && rubyrails === 'No' && cnet === 'No')
       {
         $('#default').show();
+        $('#CNET-box').hide();
+        $('#Ruby-box').hide();
+        $('#CSS-box').hide();
       }
-        console.log("reached");
   });
 });
